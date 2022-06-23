@@ -2,7 +2,6 @@ package one.digitalinnovation.digionebank.testes
 
 import one.digitalinnovation.digionebank.Cliente
 import one.digitalinnovation.digionebank.ClienteTipo
-import one.digitalinnovation.digionebank.Pessoa
 
 fun main() {
     val jose = Cliente(
