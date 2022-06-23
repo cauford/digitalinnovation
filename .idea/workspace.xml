@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd46445d-fc43-473a-9fad-f1c70cfbc062" name="Changes" comment="created bank class and test to it">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalinnovation/digionebank/ClienteTipo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalinnovation/digionebank/testes/TesteClienteTipoEnum.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="cd46445d-fc43-473a-9fad-f1c70cfbc062" name="Changes" comment="create tests and report printer">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalinnovation/digionebank/Analista.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalinnovation/digionebank/Gerente.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consoleApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/digionebank.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/one/digitalinnovation/digionebank/Funcionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalinnovation/digionebank/Funcionario.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,11 +19,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Data Class" />
         <option value="Kotlin Enum" />
         <option value="Kotlin File" />
+        <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -34,34 +33,35 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2Au5JHaVMwebuvMSmnuSbdlVcwk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/icmva/Desktop/dev/digitalinnovation/src/main/kotlin/one/digitalinnovation/digionebank/testes",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\icmva\Desktop\dev\digitalinnovation\src\main\kotlin\one\digitalinnovation\digionebank\testes" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\icmva\Desktop\dev\digitalinnovation" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.TesteClienteTipoEnumKt">
-    <configuration name="BancoTesteKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.digionebank.testes.BancoTesteKt" />
-      <module name="digionebank" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PessoaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.digionebank.PessoaKt" />
+  <component name="RunManager" selected="Kotlin.TesteFuncionarioGerenteKt">
+    <configuration name="TesteBancoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.digionebank.testes.TesteBancoKt" />
       <module name="digionebank" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -69,6 +69,27 @@
     </configuration>
     <configuration name="TesteClienteTipoEnumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.digionebank.testes.TesteClienteTipoEnumKt" />
+      <module name="digionebank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteFuncionarioAnalistaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.digionebank.testes.TesteFuncionarioAnalistaKt" />
+      <module name="digionebank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteFuncionarioGerenteKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.digionebank.testes.TesteFuncionarioGerenteKt" />
+      <module name="digionebank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestePessoaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.digionebank.testes.TestePessoaKt" />
       <module name="digionebank" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,9 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TesteFuncionarioGerenteKt" />
+        <item itemvalue="Kotlin.TesteFuncionarioAnalistaKt" />
+        <item itemvalue="Kotlin.TestePessoaKt" />
         <item itemvalue="Kotlin.TesteClienteTipoEnumKt" />
-        <item itemvalue="Kotlin.BancoTesteKt" />
-        <item itemvalue="Kotlin.PessoaKt" />
+        <item itemvalue="Kotlin.TesteBancoKt" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +153,35 @@
       <option name="project" value="LOCAL" />
       <updated>1655982346019</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="created enum client type and test to it">
+      <created>1655990198855</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655990198855</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update to make person and employee abstract class">
+      <created>1656003206497</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656003206497</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update bank test class">
+      <created>1656003485025</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656003485025</updated>
+    </task>
+    <task id="LOCAL-00008" summary="create tests and report printer">
+      <created>1656010227500</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1656010227500</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +201,14 @@
     <MESSAGE value="updated to talk about class members" />
     <MESSAGE value="created account class" />
     <MESSAGE value="created bank class and test to it" />
-    <option name="LAST_COMMIT_MESSAGE" value="created bank class and test to it" />
+    <MESSAGE value="created enum client type and test to it" />
+    <MESSAGE value="update to make person and employee abstract class" />
+    <MESSAGE value="update bank test class" />
+    <MESSAGE value="create tests and report printer" />
+    <option name="LAST_COMMIT_MESSAGE" value="create tests and report printer" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
